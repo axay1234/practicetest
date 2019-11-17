@@ -1,17 +1,17 @@
 
 
 
-// const circle = {
-//     radius : 1,
-//     location: {                          // we can't duplicate the objects when it has a methods or functions 
-        // x:1,                  // So we are using factories and constructor function to duplicate the object
-        // y: 1   // If in this object if we don't have methods then it can't be an issue to duplicate we have to just provide a different values. 
-    // },
-//     draw: function(){
-//         console.log('draw');
-//     }
-// }; 
- // Also we can define objects using factories and constructors
+ const circle = {
+     radius : 1,
+     location: {                          // we can't duplicate the objects when it has a methods or functions 
+         x:1,                  // So we are using factories and constructor function to duplicate the object
+         y: 1   // If in this object if we don't have methods then it can't be an issue to duplicate we have to just provide a different values. 
+     },
+     draw: function(){
+         console.log('draw');
+     }
+ }; 
+ Also we can define objects using factories and constructors
 
  function createCircle(radius){
       return{ 
